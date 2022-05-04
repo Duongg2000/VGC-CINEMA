@@ -44,7 +44,7 @@
                     response.sendRedirect("/VGCCinema/User/LoginView.jsp?err=timeout");
                     }
              %>
-             <h4 style="text-align: center;">CHOOSE FUNCTION</h4> 
+             <h4 style="text-align: center;">CHOOSE FUNCTION</h4>
             <table class="table">
                 <tr>
                   <td><button class="btn btn-dark" onclick="window.open('AddFilmInfoView.jsp', '_self')" style="float: left;margin: 30px;" >ADD FILM INFORMATION</button></td>

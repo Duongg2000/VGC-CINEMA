@@ -136,7 +136,7 @@
                         if(id>0){
                             int t=0;
                             for(int i=0;i<cL.size();i++){
-                                cL.get(i).setPrice(cL.get(i).getPrice()-(tong-giam*50)/cL.size());
+                                cL.get(i).setPrice(cL.get(i).getPrice()-(giam*50)/cL.size());
                                 cL.get(i).setInvoiceId(id);
                                 if(ti.addTicket(cL.get(i))!=true){
                                     t++;

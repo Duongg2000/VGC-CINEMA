@@ -15,7 +15,7 @@ import java.sql.DriverManager;
  * @author Dươngg
  */
 public class DAO {
-    Connection con; 
+    static Connection con; 
     ServerSocket myServer;
 
     public DAO(){
